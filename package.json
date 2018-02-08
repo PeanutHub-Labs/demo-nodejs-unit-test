@@ -1,0 +1,26 @@
+{
+  "name": "demo-nodejs-unit-test",
+  "version": "1.0.0",
+  "description": "demostracion pruebas unitarias con Jest",
+  "main": "index.js",
+  "scripts": { 
+    "test": "jest --runInBand --config jest.config.json",
+    "test:watch": "npm test -- --watchAll --verbose --runInBand --notify",
+    "coverage": "npm test -- --coverage --no-cache",
+    "coverage:watch": "npm run coverage -- --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PeanutHub-Labs/demo-nodejs-unit-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PeanutHub-Labs/demo-nodejs-unit-test/issues"
+  },
+  "homepage": "https://github.com/PeanutHub-Labs/demo-nodejs-unit-test#readme",
+  "dependencies": {
+    "jest": "^22.2.1",
+    "sinon": "^4.2.2"
+  }
+}
